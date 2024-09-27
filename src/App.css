@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}
+.box{
+  height: 190px;
+  width: 190px;
+  background-color: crimson;
+}
+.shoadeo{
+  box-shadow: 0 0 10px rgb(97, 96, 96);
+  box-sizing: border-box;
+}
