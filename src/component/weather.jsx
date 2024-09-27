@@ -30,7 +30,8 @@ export const Weather = () => {
         }
     }, [xvalue, yvalue, API_key])
 
-
+    console.log(weather);
+    
     // Show the value when the data not get
     if (error) return <p>{error}</p>;
     if (!xvalue || !yvalue) return <p>Getting your location...</p>;
